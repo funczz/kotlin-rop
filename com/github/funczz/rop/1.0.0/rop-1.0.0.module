@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.funczz",
+    "module": "rop",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "rop-1.0.0.jar",
+          "url": "rop-1.0.0.jar",
+          "size": 44940,
+          "sha512": "3813887159cefe10d09dcc9891949ce34f877516d5c5abf032c45f407f9a706afcee55b4b9111f2b7c0574e4d279c9b108b34d4b1f270713f419b4acd7b0a6e1",
+          "sha256": "62a93afdb6bd9a4cc36d6108b4674aabed78e1f0e2ea1de6c21d0507920e13cb",
+          "sha1": "ba5073724be5de6716fb5b7a6dbd64f4a8e13a25",
+          "md5": "db92a3a735b2247c35e65b574f69986b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rop-1.0.0.jar",
+          "url": "rop-1.0.0.jar",
+          "size": 44940,
+          "sha512": "3813887159cefe10d09dcc9891949ce34f877516d5c5abf032c45f407f9a706afcee55b4b9111f2b7c0574e4d279c9b108b34d4b1f270713f419b4acd7b0a6e1",
+          "sha256": "62a93afdb6bd9a4cc36d6108b4674aabed78e1f0e2ea1de6c21d0507920e13cb",
+          "sha1": "ba5073724be5de6716fb5b7a6dbd64f4a8e13a25",
+          "md5": "db92a3a735b2247c35e65b574f69986b"
+        }
+      ]
+    }
+  ]
+}
